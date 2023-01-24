@@ -17,6 +17,7 @@ def anonlogin(hostname):
         print("[-] FTP Anonymous login failed \n")
 
 if __name__ == '__main__':
+    print("\n" + "-"*50 + "Anonymous FTP Login" + "-"*50 + "\n")
     hostname = input(">>Enter the host name : ")
     #Converting hostname to its IP address
 
